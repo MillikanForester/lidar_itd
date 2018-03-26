@@ -16,6 +16,8 @@ import pandas as pd
 from math import sqrt
 import os
 
+#teste git
+
 #set result directory
 os.chdir('C:/../itd_folder')
 
