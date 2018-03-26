@@ -17,7 +17,7 @@ from math import sqrt
 import os
 
 #set result directory
-os.chdir('C:/3D/ALS/PRJ_UPM3/RESULT/ATLAclip/ITD.plots')
+os.chdir('C:/../itd_folder')
 
 #field data sheet in .csv format
 fld = pd.read_csv('reference_trees.csv', sep = ',' )
