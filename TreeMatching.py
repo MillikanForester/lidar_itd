@@ -16,7 +16,6 @@ import pandas as pd
 from math import sqrt
 import os
 
-#teste git
 
 #set result directory
 os.chdir('C:/../itd_folder')
@@ -87,8 +86,8 @@ calculate(field, trees_detected, 3)
 1. field = .csv table of X and Y coordinates of field referenced trees
 2. trees_detected = .csv table of trees predicted by ITD algorithms,
 X and Y coordinates.
-3. Search radius = radius search around reference trees. Try to use values similar
-or smaller than spacing.
+3. Search radius = radius search around reference trees. Values similar
+or smaller than spacing preferable.
 
 read this file in R:
 install.package('reticulate') # allows python code to run in R
